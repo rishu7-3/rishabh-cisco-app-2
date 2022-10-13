@@ -1,3 +1,3 @@
 FROM nginx
-LABEL name=ashutoshh
+LABEL name=rishabh
 COPY html-sample-app /usr/share/nginx/html/
