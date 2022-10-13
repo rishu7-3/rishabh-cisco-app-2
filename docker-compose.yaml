@@ -1,10 +1,10 @@
 version: '3.8'
 services:
-  ashuapp1:
-    image: ashucisco:webappv1  # image i want to build 
-    build:  # location & name of dockerfile 
-      context: . 
-      dockerfile: day4app.dockerfile
-    container_name: ashuwebc11 # after image build the container i want to create
-    ports: # port forwarding 
-    - 1234:80 
+  rishabh-ui-app: # name of service 
+    image: rishabh:webappv1 # name i want to build
+    build: # location & name of dockerfile
+      context: .
+      dockerfile: rishabhday4app.dockerfile
+    container_name: rishabhc1 # after image build the container i want to create
+    ports: # port forwarding
+    - 1836:80
